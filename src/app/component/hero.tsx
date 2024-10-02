@@ -2,17 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-import home from '../../public/assets/Home.jpg';
+import home from '../../public/assets/Home.jpg'; // Keep this line
 import Link from "next/link";
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-import home from '../../public/assets/Home.jpg'
->>>>>>> 422df26 (asfaportfolio)
-=======
-
-
->>>>>>> 2164349 (asfaportfolio)
 
 const Hero = () => {
   return (
@@ -23,15 +14,11 @@ const Hero = () => {
           <Image
             className="w-48 h-48 mb-8 rounded-full border-4 border-blue-500 shadow-lg"
             alt="hero"
-<<<<<<< HEAD
-            src={("../../../assets/Home.jpg")}
-=======
             src={home}
->>>>>>> 422df26 (asfaportfolio)
             width={200}
             height={200}
           />
-          
+
           {/* Heading and Typewriter */}
           <h1 className="text-4xl font-bold text-gray-900 mb-4">I am</h1>
           <div className="text-3xl font-semibold text-gray-900">
@@ -50,7 +37,7 @@ const Hero = () => {
           {/* Description */}
           <p className="leading-relaxed text-lg max-w-md text-gray-700 mb-8">
             I specialize in crafting responsive and dynamic web interfaces with
-            HTML, CSS, JavaScript, React, and Next.js. Let&abpos;s build modern, optimized web experiences together!
+            HTML, CSS, JavaScript, React, and Next.js. Let&apos;s build modern, optimized web experiences together!
           </p>
 
           {/* Contact Button */}
@@ -64,4 +51,5 @@ const Hero = () => {
     </div>
   );
 };
+
 export default Hero;
