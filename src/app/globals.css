@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#Project {
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite; /* Makes the animation loop */
+}
+
+@keyframes mymove {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 50px; /* Adjust the value as per your design */
+  }
+}
+
+#skill {
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; /* Makes the animation loop */
+}
+
+@keyframes mymove {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 50px; /* Adjust the value as per your design */
+  }
+}
+
+  
+#skill{
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite; /* Makes the animation loop */
+}
+
+@keyframes mymove {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 50px; /* Adjust the value as per your design */
+  }
+
+}
